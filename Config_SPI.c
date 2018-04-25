@@ -30,7 +30,7 @@ char getcharSPI(){
 
 char test(void){	
 	int j=0;
-	char chainerecu[200];
+	char chainerecu[50];
 	
 	if (SPIF==1){	
 		chainerecu[j]=getcharSPI();
